@@ -270,15 +270,18 @@ function continueStatement(num) {
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código:
    const aux = []
-for(let i = 0 ; i < 9 ; i++) {
-   num = num + 2
-   aux.push(num)
+for(let i = 0 ; i < 10 ; i++) {
    if(i === 5) {
       continue
    }
+  
+   num = num + 2
+   aux.push(num)
+  
 } return aux
 
-}
+
+} console.log(continueStatement(2))
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
