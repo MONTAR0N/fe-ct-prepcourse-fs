@@ -271,7 +271,7 @@ function continueStatement(num) {
    // Tu código:
    const aux = []
 for(let i = 0 ; i < 10 ; i++) {
-   if(i === 5) {
+   if(i === 4) {
       continue
    }
   
@@ -281,7 +281,7 @@ for(let i = 0 ; i < 10 ; i++) {
 } return aux
 
 
-} console.log(continueStatement(2))
+} 
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
